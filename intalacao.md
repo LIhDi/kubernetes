@@ -8,14 +8,10 @@
 
 ## Virtual Box
 
-```sh
-sudo add-apt-repository multiverse && sudo apt-get update
-sudo apt install virtualbox
-sudo dpkg-reconfigure virtualbox-dkms
-sudo modprobe vboxdrv
-sudo apt install virtualbox-dkms
-virtualbox
+1. Baixar - [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
 
+```sh
+sudo dpkg -i virtualbox-6.1_6.1.0-135406_Ubuntu_eoan_amd64.deb 
 ```
 
 ## Vagrant
